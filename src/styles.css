@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
+}
+h1 {
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+h2 {
+  text-align: center;
+  width: 90vw;
+  margin: 1rem auto;
+  font-size: 1.5rem;
+}
+input {
+  width: 90vw;
+  padding: 0.5rem;
+  margin: 1rem auto;
+  border: 2px solid rgb(0, 110, 255);
+  border-radius: 0.5rem;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 2rem;
+  z-index: 2;
+}
+.card:active {
+  transition: all 1s;
+  box-shadow: inset -13px -13px 97px #d9d9d9, inset 13px 13px 97px #ffffff !important;
+}
+@media all and (min-width: 991px) {
+  .card {
+    cursor: pointer;
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  input {
+    width: 60vw;
+    padding: 1rem;
+  }
+}
