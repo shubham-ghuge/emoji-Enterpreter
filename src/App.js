@@ -123,6 +123,45 @@ export default function App() {
           ))}
         </div>
       </div>
+      {/* footer */}
+      <footer>
+        <h3>
+          ⭐ this repo on{" "}
+          <a
+            href="https://github.com/shubham-ghuge/webseries-recommedation"
+            target="_blank"
+          >
+            <span>
+              <i class="bx bxl-github"></i>
+            </span>
+          </a>
+        </h3>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/shubhamghuge_" target="_blank">
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com/_shubham_ghuge_" target="_blank">
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/shubham-ghuge-aa3350188/"
+              target="_blank"
+            >
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.github.com/shubham-ghuge" target="_blank">
+              <i class="bx bxl-github"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }
