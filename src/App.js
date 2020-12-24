@@ -128,7 +128,7 @@ export default function App() {
         <h3>
           ⭐ this repo on{" "}
           <a
-            href="https://github.com/shubham-ghuge/webseries-recommedation"
+            href="https://github.com/shubham-ghuge/emoji-Enterpreter"
             target="_blank"
           >
             <span>
